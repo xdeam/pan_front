@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>登录</title>
+	<link rel="stylesheet" href="auth.css">
+</head>
+
+<body>
+
+	<div class="lowin lowin-blue">
+			
+		<div class="lowin-brand">
+			<div class="slice"  style="display:none">
+					<div  data-loader="ball-pulse"></div>		
+			</div>
+			
+			<img  src="kodinger.jpg" alt="logo">
+		</div>
+		<div class="lowin-wrapper">
+			<div class="lowin-box lowin-login">
+				<div class="lowin-box-inner">
+					<form>
+						<p>登录以继续</p>
+						<div class="lowin-group">
+							<label>用户名 <a href="#" class="login-back-link">登录?</a></label>
+							<input type="email" autocomplete="email" name="email" class="lowin-input">
+						</div>
+						<div class="lowin-group password-group">
+							<label>密码</label>
+							<input type="password" name="password" autocomplete="current-password" class="lowin-input">
+						</div>
+						<button class="lowin-btn login-btn">
+							登录
+						</button>
+
+						
+					</form>
+				</div>
+			</div>
+
+		
+		</div>
+	
+	
+	</div>
+
+	<script src="auth.js"></script>
+	<script>
+		Auth.init({
+			login_url: '#login',
+			forgot_url: '#forgot'
+		});
+	</script>
+</body>
+</html>
