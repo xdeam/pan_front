@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-	background-color: #fbfbfb;
+	/* background-color: #fbfbfb; */
+	background: url(./back.jpg);
 	text-align: center;
 }
 
@@ -98,7 +99,7 @@ body {
 	background-color: #fff;
 	-webkit-box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
 	        box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
-	padding: 60px 25px 25px 25px;
+	padding:20px 25px 25px 25px;
 	text-align: left;
 	border-radius: 3px;
 }
@@ -167,7 +168,8 @@ body {
 	color: #fff;
 	padding: 15px;
 	border-radius: 3px;
-	background-color: var(--color-primary);
+	background:  linear-gradient(to bottom right, #33ccff , #3399ff); 
+	/* background-color: var(--color-primary); */
 	-webkit-box-shadow: 0 2px 7px var(--color-semidark);
 	        box-shadow: 0 2px 7px var(--color-semidark);
 	font-weight: 700;
@@ -184,7 +186,7 @@ body {
 }
 
 .lowin .lowin-box .lowin-btn:hover {
-	opacity: .9;
+	opacity: .8;
 }
 
 .lowin .text-foot {
@@ -201,6 +203,7 @@ body {
 	font-size: 12px;
 	color: var(--color-semidark);
 	font-weight: 700;
+	
 }
 
 .lowin .login-back-link {
