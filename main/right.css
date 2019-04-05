@@ -1,16 +1,18 @@
-body {height:100%;margin-bottom:0;}
+
 
 #right{
     width: 20%;
     position: fixed;
     right:0px;
+    top:20px;
+   
 
 }
-.thumbnail  {
+#right .thumbnail  {
     position:fixed;
 
     /* overflow:auto; */
-    top:50px;
+    top:80px;
     bottom:0px;
 
 }
@@ -18,9 +20,9 @@ body {height:100%;margin-bottom:0;}
     width:100%;
     height: 100%;
 }
-.btn{
+#right .btn{
     border-radius: 2px;
-    width:90px;
+    width:80px;
     margin: 5px;
 }
 #upload{
@@ -28,16 +30,16 @@ body {height:100%;margin-bottom:0;}
     border:0px;
 
 }
-.btn-group{
+ .btn-group{
     float: left;
     
 }
-.btn-group>button{
+#right .btn-group>button{
     border-color: #33ccff;
     border-width: 0.6px;
     color: #24b3e2;
 }
-.btn-group>button:hover{
+#right .btn-group>button:hover{
     color: #229bc4;
     background-color: #c2d3e4;
     border-color: #e5f0f3;
@@ -63,24 +65,24 @@ body {height:100%;margin-bottom:0;}
     position: relative;
     
 }
-.table{
+#right .table{
     color: rgb(120, 166, 221);
 }
 
 
-.bg-primary {
+#right .bg-primary {
 
     color: #fff !important;
     background-color: #20a8d8 !important;
 
 }
-ul.icons-list {
+#right ul.icons-list {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-ul.icons-list li i {
+#right ul.icons-list li i {
 
     display: block;
     float: left;
@@ -91,10 +93,10 @@ ul.icons-list li i {
     text-align: center;
 
 }
-ol, ul, dl {
+#right ol, #righ ul,#righ  dl {
     margin-top: 0;
     margin-bottom: 1rem;
 }
-small{
+#right small{
     color: gray;
 }

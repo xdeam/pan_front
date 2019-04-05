@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="row" id="right">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-10">
           <div class="thumbnail">
           
             <div class="caption" id="inner">
@@ -39,8 +39,14 @@
                 
             </p>
             <div class="">
-                   
-                    <hr class="mt-0">
+              
+                <hr class="mt-0">
+              <div class="uploadFilesBox" style="width:180px;">
+
+              </div>
+              
+              
+                <hr class="mt-0">
                     <ul class="icons-list">
                         <li>
                             <i class="bg-primary img-circle">产</i>
@@ -85,5 +91,13 @@
       </div>
     <script src="../assert/jquery-3.3.1.min.js"></script>
     <script src="../assert/btsp/js/bootstrap.min.js"></script>
+    <!-- <script  src='../assert/verUpload/verUpload.js'></script> -->
+ 
+    <!-- <script src="right.js"></script> -->
+  <script>
+  
+    $(document.body).append("<script language='javascript' src='right.js'><\/script>");
+      right_init()
+  </script>
   </body>
 </html>

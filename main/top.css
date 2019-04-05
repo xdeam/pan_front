@@ -16,7 +16,7 @@
     color: white;
     /* height: 60px; */
 }
-.navbar-form{
+#menu .navbar-form{
         /* position: relative; */
         margin-right: 10%;
         float: right;
@@ -24,7 +24,7 @@
     
 }
 
-.form-group .form-control{
+#menu .form-group .form-control{
     border-top-left-radius: 4px;
     border-bottom-left-radius:4px;
     border-top-right-radius: 0px;
@@ -33,7 +33,7 @@
    color: white;
    
 }
-.navbar-form .btn-default{
+#menu .navbar-form .btn-default{
   
     border-top-left-radius: 0px;
     border-bottom-left-radius:0px;
@@ -46,7 +46,7 @@
     padding-bottom: 6px;
     color: gray;
 }
-.navbar-default .navbar-nav{
+#menu .navbar-default .navbar-nav{
     position: relative;
      left: -5%;
      display:flex;
@@ -67,12 +67,19 @@ width: 40px;
     color:gray;
     vertical-align:center;
 }
-.navbar-default .navbar-nav>li>a {
+#tuname{
     
     color: white;
 }
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+#tuname:hover {
 
     color: white;
-   font-weight: bolder;
+    font-weight: bolder;
+   
+}
+ .navbar-default .navbar-nav>.open>a,
+ .navbar-default .navbar-nav>.open>a:focus, 
+  .navbar-default .navbar-nav>.open>a:hover {
+    color: black;
+    background-color: #3399ff;
 }
